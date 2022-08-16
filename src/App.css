@@ -3,7 +3,8 @@
   margin: 0 auto;
   text-align: center;
 }
-#main-app {
-  width: 1280px;
-  margin: 20px auto;
+
+:root {
+  --primary-color: green;
 }
+
