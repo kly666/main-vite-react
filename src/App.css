@@ -4,7 +4,7 @@
   text-align: center;
 }
 
+/* 方案一 */
 :root {
-  --primary-color: green;
+  --primary-color: blue;
 }
-
