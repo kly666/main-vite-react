@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import { getStyle } from './utils/color-fade'
-import antClass from './ant-class'
+import antClass from './ant/ant-class'
 
 function App() {
   /** 方案一 */
