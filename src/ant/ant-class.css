@@ -130,6 +130,7 @@ html {
 }
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
+  color: #fff;
   background-color: var(--primary-color-hover);
   border-color: var(--primary-color-hover);
 }
@@ -293,6 +294,7 @@ html {
 }
 /* antd v4.0 */
 .ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  color: #fff;
   background-color: var(--primary-color);
 }
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
@@ -412,14 +414,17 @@ Dropdown组件*/
           box-shadow: -1px 0 0 0 var(--primary-color-active);
 }
 .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #fff;
   background: var(--primary-color);
   border-color: var(--primary-color);
 }
 .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  color: #fff;
   background: var(--primary-color-hover);
   border-color: var(--primary-color-hover);
 }
 .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active {
+  color: #fff;
   background: var(--primary-color-active);
   border-color: var(--primary-color-active);
 }
@@ -528,11 +533,13 @@ cascader 相关*/
 .ant-calendar-selected-date .ant-calendar-date,
 .ant-calendar-selected-start-date .ant-calendar-date,
 .ant-calendar-selected-end-date .ant-calendar-date {
+  color: #fff;
   background: var(--primary-color);
 }
 .ant-calendar-selected-date .ant-calendar-date:hover,
 .ant-calendar-selected-start-date .ant-calendar-date:hover,
 .ant-calendar-selected-end-date .ant-calendar-date:hover {
+  color: #fff;
   background: var(--primary-color);
 }
 .ant-calendar .ant-calendar-ok-btn {
@@ -867,6 +874,7 @@ Steps 相关*/
   color: var(--primary-color);
 }
 .ant-steps-item-process .ant-steps-item-icon {
+  color: #fff;
   border-color: var(--primary-color);
 }
 .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
@@ -1268,6 +1276,7 @@ Typography*/
   border-color: var(--error-color);
 }
 .ant-btn-danger:hover, .ant-btn-danger:focus {
+  color: #fff;
   background-color: var(--error-color-hover);
   border-color: var(--error-color-hover);
 }
@@ -1277,6 +1286,7 @@ Typography*/
 }
 .ant-btn-dangerous.ant-btn-primary:hover,
 .ant-btn-dangerous.ant-btn-primary:focus {
+  color: #fff;
   border-color: var(--error-color-hover);
   background: var(--error-color-hover);
 }
